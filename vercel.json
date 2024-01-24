@@ -6,7 +6,7 @@
             "use": "@vercel/node"
         }
     ],
-    "redirects": [
+    "rewrites": [
         {
             "source": "/(.*)",
             "destination": "/index.html"
